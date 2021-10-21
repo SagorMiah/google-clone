@@ -46,6 +46,7 @@ const index = () => {
             ref={searchInputRef}
             type="text"
             className="flex-grow focus:outline-none"
+            defaultValue={router.query.term}
           />
           <MicrophoneIcon className="h-5" />
         </div>
